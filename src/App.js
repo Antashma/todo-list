@@ -1,4 +1,5 @@
 import TaskList from "./TaskList";
+import Form from "./Form"
 
 function App() {
   return (
@@ -6,13 +7,10 @@ function App() {
       <header>
         <h1>Tasker🌟</h1>
       </header>
+
       <main>
         <p>Hello and welcome to tasker!</p>
-        <form>
-          <input type="text" placeholder="Enter task..."/>
-          <button>Add Task</button>
-          <button>Clear Completed</button>
-        </form>
+        <Form />
         <TaskList />
       </main>
     </div>
