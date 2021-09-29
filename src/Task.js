@@ -1,9 +1,12 @@
-import React from 'react'
+import React from 'react';
 
-export default function Task() {
+export default function Task({text, taskId, completed}) {
     return (
-        <div>
-            <p>Here is a task!</p>
-        </div>
-    )
-}
+        <>
+            <li className="task">
+                <span className="task-text">{text}</span>
+                <span className="task-btns">[ 👍 (done) | ❌ (remove) ]</span>
+            </li>
+        </>
+    );
+};

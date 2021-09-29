@@ -1,5 +1,6 @@
 import TaskList from "./TaskList";
 import Form from "./Form"
+import "./style.css"
 
 function App() {
   return (
